@@ -5,7 +5,7 @@
     if (n<1){
         return 0;
     } else {
-        for (int i=1;i<n;i+=2){
+        for (int i=0;i<n;i+=2){
             sum=sum+array[i];
         }
     } return sum;

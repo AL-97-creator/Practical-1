@@ -10,7 +10,7 @@
             std::cout << "Fail" << std::endl;
             break;
         default:
-            std::cout << "Nothing" <<std:endl;
+            std::cout << "Nothing" <<std::endl;
             break;
         }
     }

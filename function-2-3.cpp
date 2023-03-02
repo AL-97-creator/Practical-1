@@ -19,7 +19,7 @@
         }
     }
 
-    std::cout << "2:" << twos <<";5:" << fives << ";9:" << nines;
+    std::cout << "2:" << twos <<";5:" << fives << ";9:" << nines << ";";
     printf("\n");
  }
 

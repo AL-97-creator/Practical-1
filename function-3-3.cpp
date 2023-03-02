@@ -3,8 +3,8 @@
   double weighted_average(int array[], int n){
     int numWeight=0;
     int numWeightArr[n];
-    int sum=0;
-    int wavg;
+    double sum=0.0;
+    double wavg;
   if (n <1){
     return 0;
    } else {
@@ -20,7 +20,7 @@
             for (int i=0; i<n; i++){
                 sum=sum+(array[i]*numWeightArr[i]);
             }
-            wavg=sum/n;
+            double wavg=sum/n;
             return wavg;
    }
         

@@ -1,8 +1,8 @@
 #include <iostream>
 
  double array_mean(int array[], int n){
-    int avg;
-    int sum=0;
+    double avg;
+    double sum=0.0;
     if (n<=0){
         return 0.0;
     }
